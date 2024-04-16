@@ -1,30 +1,114 @@
+body {
+  font-family: inherit;
+  padding-top: 70px;
+}
+main {
+    padding-top: 40px;
+}
+h5 {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+#navbarNavDropdown {
+    font-size: 22px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+}
 
-    body {
-        font-family: inherit;
-    }
+.dropdown-menu {
+font-size: 18px;
+}
+.extensions {
+  text-align: center;
+}
+.tweezers {
+  text-align: center;
+}
+.adhesives {
+  text-align: center;
+}
 
-    .navbar-toggler-icon {
-        background-color: #ffffff;
-    }
+.cart {
+  text-align: center;
+}
+.cart-container {
+  margin: 5%;
+}
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.register {
+  border: 3px double #000000;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
 
-    .dropdown-menu .dropdown-item:hover {
-        background-color:#ffffff;
-        color:  #000000 !important;
-    }
-    
-    .extensions {
-        text-align: center;
-    }
+.card-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.card {
+  width: 18rem;
+  padding: 10px;
+  margin: 30px;
+}
+.logIn {
+  text-align: center;
+}
+.logIn-container {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 3px double #000000;
+  padding: 40px;
+}
 
-    .card-container {
-        display: flex;
-        justify-content: space-between; 
-    }
-    
-    .card {
-        width: 18rem;
-        padding: 10px;
-        margin: 30px;
-    
-    }
-    
+.mb-3.form-check {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.form-check {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.btn {
+    background-color: rgb(255, 154, 242);
+    color: #000;
+    border-color: rgb(255, 0, 208);
+}
+.carousel-item img {
+        max-width: 80%;
+        height: auto; 
+        max-height: 400px; 
+        margin: auto;
+}
+.carousel-control-next-icon {
+    background-color: #00000053;
+}
+.carousel-control-prev-icon {
+    background-color: #00000053;
+}
