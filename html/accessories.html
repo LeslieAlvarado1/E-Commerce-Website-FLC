@@ -14,16 +14,16 @@
 <body>
     <container>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid" style="background-color: #000000;  color: #b2b2c1;">
-                    <a class="navbar-brand" href="/html/index.html" style="color: #ffffff;">Forever Lash Co</a>
+                    <a class="navbar-brand" href="/html/index.html" style="color: #ffffff; margin-left: 10px;"> <img src="/images/FLC-original.png" alt="Forever Lash Co Logo" style="height: 70px; "></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation" >
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="/html/index.html" style="color: #b2b2c1;">Home</a>
                             </li>
@@ -44,13 +44,18 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/html/contact.html" style="color: #b2b2c1;">Contact Us</a>
+                                <a class="nav-link" href="/html/register.html" style="color: #b2b2c1;">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/html/register.html" style="color: #b2b2c1;">Login / Sign Up</a>
+                                <a class="nav-link" href="/html/logIn.html" style="color: #b2b2c1;">Log In</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/html/cart.html" style="color: #b2b2c1;">Cart</a>
+                                <a class="nav-link" href="/html/cart.html" style="color: #b2b2c1;"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bag" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                </svg></a>
                             </li>
                         </ul>
 
@@ -60,7 +65,44 @@
         </header>
     </container>
     <main>
-        <h1>Hello, Accessories!</h1>
+        <section class="extensions">
+            <h1 style="font-weight: bold; margin-top: 3%">Lash Accessories</h1>
+            <h5>Forever Lash Co provides you all the tools to lash your best. We have supporting items to optimize your lashing 
+                time such as lash bonder, glue remover, and after care serums.</h5>
+                <h5><em>Because when it comes to lashing, lashes alone aren't the only necessity!</em></h5>
+            <div class="card-container">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/lash-serum3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="/html/cart.html" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/lash-remover-gel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="/html/cart.html" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/super-bonder.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="/html/cart.html" class="btn btn-primary">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         

@@ -14,18 +14,19 @@
 <body>
     <container>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid" style="background-color: #000000;  color: #b2b2c1;">
-                    <a class="navbar-brand" href="/html/index.html" style="color: #ffffff;">Forever Lash Co</a>
+                    <a class="navbar-brand" href="/html/index.html" style="color: #ffffff; margin-left: 10px;"> <img src="/images/FLC-original.png" alt="Forever Lash Co Logo" style="height: 70px; "></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/html/index.html" style="color: #b2b2c1;">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/html/index.html"
+                                    style="color: #b2b2c1;">Home</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -36,21 +37,29 @@
                                     <li><a class="dropdown-item" href="/html/extensions.html"
                                             style="color: #ffffff;">Lash
                                             Extensions</a></li>
-                                    <li><a class="dropdown-item" href="/html/adhesives.html" style="color: #ffffff;">Adhesives</a></li>
-                                    <li><a class="dropdown-item" href="/html/tweezers.html" style="color: #ffffff;">Tweezers</a></li>
-                                    <li><a class="dropdown-item" href="/html/accessories.html" style="color: #ffffff;">Lash Accessories</a>
+                                    <li><a class="dropdown-item" href="/html/adhesives.html"
+                                            style="color: #ffffff;">Adhesives</a></li>
+                                    <li><a class="dropdown-item" href="/html/tweezers.html"
+                                            style="color: #ffffff;">Tweezers</a></li>
+                                    <li><a class="dropdown-item" href="/html/accessories.html"
+                                            style="color: #ffffff;">Lash Accessories</a>
                                     </li>
 
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/html/contact.html" style="color: #b2b2c1;">Contact Us</a>
+                                <a class="nav-link" href="/html/register.html" style="color: #b2b2c1;">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/html/register.html" style="color: #b2b2c1;">Login / Sign Up</a>
+                                <a class="nav-link" href="/html/logIn.html" style="color: #b2b2c1;">Log In</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/html/cart.html" style="color: #b2b2c1;">Cart</a>
+                                <a class="nav-link" href="/html/cart.html" style="color: #b2b2c1;"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-bag" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                    </svg></a>
                             </li>
                         </ul>
 
@@ -60,12 +69,91 @@
         </header>
     </container>
     <main>
-        <h1>Hello, register!</h1>
+        <section class="register">
+
+            <div class="register-container">
+                <h1 style="font-weight: bold; padding-bottom: 6%;"> <em>We'd love to have you!</em></h1>
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Create account</h4>
+                    <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="*******" required>
+                                <div class="invalid-feedback">
+                                    Please include at least one capital letter and a number.
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <label for="country" class="form-label">Country</label>
+                                <select class="form-select" id="country" required>
+                                    <option value="">Choose...</option>
+                                    <option>United States</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid country.
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="state" class="form-label">State</label>
+                                <select class="form-select" id="state" required>
+                                    <option value="">Choose...</option>
+                                    <option>Arizona</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please provide a valid state.
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="save-info" style="margin-right: 2%; margin-bottom: 5px;">
+                            <label class="form-check-label" for="save-info">Sign me up for promotional
+                                emails!</label>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Sign Me Up!</button>
+                    </form>
+                </div>
+        </section>
     </main>
     <footer>
-        
+
     </footer>
-   
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
