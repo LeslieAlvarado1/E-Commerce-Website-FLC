@@ -11,7 +11,7 @@ Capstone 1 E-Commerce website. This project is an e-commerce website specificall
 
 ## About
 
-Welcome to Forever Lash Co, a website that provides a selection of eyelash extension products. You can explore a vast selection of data and easily accessible navigation tools such as navbar, links and more. It provides a catalog of different eyelash extension products and allows users to browse, add items to their cart, and complete their purchase securely.
+Welcome to Forever Lash Co, a website that provides a selection of eyelash extension products. You can explore a vast selection of data and easily accessible navigation tools such as navbar, links and more. It provides a catalog of different eyelash extension products and allows users to browse, view items to their cart, and browse securely.
 
 ## Getting Started
 
