@@ -7,6 +7,7 @@ Capstone 1 E-Commerce website.
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Built With](#built-with)
+- [Features](#Features)
 
 ## About
 
@@ -28,3 +29,6 @@ Welcome to Forever Lash Co, a website that provides a selection of eyelash exten
 - CSS
 - JavaScript
 
+## Features
+
+- Inlcudes product catalog, shopping cart, registering, user authentication, etc.
