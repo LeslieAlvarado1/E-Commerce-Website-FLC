@@ -15,7 +15,7 @@ Welcome to Forever Lash Co, a website that provides a selection of eyelash exten
 
 ## Getting Started
 
-- Frontend installation instructions through terminal: fork and clone the repo using the copy ssh link: git@github.com:Lesliea1/flatiron-phase2-react-project-front--end.git. Navigate to the depository cloned and install dependecies (npm install).
+- Frontend installation instructions through terminal: fork and clone the repo using the copy ssh link: git@github.com:LeslieAlvarado1/E-Commerce-Website-FLC.git . Navigate to the depository cloned and install dependecies (npm install).
 
   - In terminal cd into "my-react-app" to enter working directory. Once in correct location, insert in terminal "run npm dev" website which will pull into browser localhost.
 
