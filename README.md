@@ -7,7 +7,6 @@ Capstone 1 E-Commerce website.
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Built With](#built-with)
-- [Links](#Links)
 
 ## About
 
