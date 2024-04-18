@@ -32,3 +32,13 @@ Welcome to Forever Lash Co, a website that provides a selection of eyelash exten
 ## Features
 
 - Inlcudes product catalog, shopping cart, registering, user authentication, etc.
+
+## Usage
+![Homepage](./images/3-tray-rock.jpg)
+![Homepage](./images/2-c-closedTrays.jpg)
+![Homepage](./images/inner-tray.jpg)
+![Homepage](./images/C-inner-singleTray.jpg)
+![Homepage](./images/3-tray-standing.jpg)
+![Homepage](./images/2-cTray-standing.jpg)
+
+![Product Details](./images/regular-glue.png)
