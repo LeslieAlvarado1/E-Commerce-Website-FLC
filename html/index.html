@@ -70,12 +70,12 @@
     <div class="home-container">
         <div class="carousel-container">
             <div class="owl-carousel owl-theme">
-                <div class="item"><img src="/images/3-tray-rock.jpg"></div>
-                <div class="item"><img src="/images/2-c-closedTrays.jpg"></div>
-                <div class="item"><img src="/images/inner-tray.jpg"></div>
-                <div class="item"><img src="/images/C-inner-singleTray.jpg"></div>
-                <div class="item"><img src="/images/3-tray-standing.jpg"></div>
-                <div class="item"><img src="/images/2-cTray-standing.jpg"></div>
+                <div class="item"><img src="/images/3-tray-rock.jpg" alt="extension"></div>
+                <div class="item"><img src="/images/2-c-closedTrays.jpg" alt="extension"></div>
+                <div class="item"><img src="/images/inner-tray.jpg" alt="extension"></div>
+                <div class="item"><img src="/images/C-inner-singleTray.jpg" alt="extension"></div>
+                <div class="item"><img src="/images/3-tray-standing.jpg" alt="extension"></div>
+                <div class="item"><img src="/images/2-cTray-standing.jpg" alt="extension"></div>
             </div>
             <script src="/scripts/jquery.js"></script>
             <script src="/scripts/owl.carousel.min.js"></script>
@@ -110,7 +110,7 @@
             <div class="toast-container">
                 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                     <div class="toast-header">
-                        <img src="/images/FLC-original 2.png" class="rounded me-2" alt="FLC Logo"
+                        <img src="/images/FLC-original2.png" class="rounded me-2" alt="FLC Logo"
                             style="width: 45%; padding-left: 3%;">
                         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"
                             style="margin-left: 45%;"></button>
@@ -125,13 +125,14 @@
             </div>
             <hr class="my-4">
             <section class="home-body">
-                <h1 class="home-titles">Shop Lash Collections</h1>
+                <h2 class="home-titles">Shop Lash Collections</h2>
                 <div class="list-group">
                     <a href="/html/extensions.html" class="list-group-item list-group-item-action active"
                         aria-current="true"
                         style="background-color: #000000; border-color:#b2b2c1; color: #fdfdfdf3;  padding: 1%; margin: 2px;">
                         <div class="d-flex align-items-center">
-                            <h5 class="mb-0 mr-3 h5-visible" style="font-size: 30px; font-weight:bold; letter-spacing: 2px; ">Lash
+                            <h5 class="mb-0 mr-3 h5-visible"
+                                style="font-size: 30px; font-weight:bold; letter-spacing: 2px; ">Lash
                                 Extensions</h5>
                             <p class="mb-0" style="padding-bottom: 1%; font-size: 18px; text-align: center;">
                                 Unparalleled fullness, intense
@@ -178,7 +179,7 @@
                 </div>
                 <hr class="my-4">
                 <section class="about-us">
-                    <h1 class="home-titles2">Who We Are</h1>
+                    <h2 class="home-titles2">Who We Are</h2>
                     <div class="container text-center"
                         style="background-color: white; border: 3px double #000000; margin-bottom: 15%;">
                         <div class="row g-2" style="padding-top: 5%;">
@@ -194,7 +195,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-6" id="col-home1">
+                            <div class="col-6" id="col-home2">
                                 <div class="p-3">
                                     <h3 style="text-decoration: underline; text-align: center;">Our Products</h3>
                                     <p style="padding-top: 20px;">Every product has been tested and approved by
@@ -206,7 +207,7 @@
                             </div>
 
 
-                            <div class="col-6" id="col-home1">
+                            <div class="col-6" id="col-home3">
                                 <div class="p-3">
                                     <h3 style="text-decoration: underline;">Our Mission</h3>
                                     <p style="padding-top: 20px;">Forever Lash Co is more than just a brand, we are a
@@ -215,7 +216,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-6" id="col-home1">
+                            <div class="col-6" id="col-home4">
                                 <div class="p-3">
                                     <h3 style="text-decoration: underline;">Our Moto</h3>
                                     <p style="padding-top: 12px;"><em><strong>"The best way to predict the future is to
@@ -229,73 +230,72 @@
                     </div>
                 </section>
             </section>
-    </div>
-    </div>
-    </main>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const toastElList = [].slice.call(document.querySelectorAll('.toast'))
-            const toastList = toastElList.map(function (toastEl) {
-                return new bootstrap.Toast(toastEl, {
-                    autohide: false
+        </main>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const toastElList = [].slice.call(document.querySelectorAll('.toast'))
+                const toastList = toastElList.map(function (toastEl) {
+                    return new bootstrap.Toast(toastEl, {
+                        autohide: false
+                    });
+                });
+                toastList.forEach(function (toast) {
+                    toast.show();
                 });
             });
-            toastList.forEach(function (toast) {
-                toast.show();
-            });
-        });
-    </script>
-    <footer>
-        <div class="container">
-            <hr class="my-4">
-            <footer class="py-5">
-                <div class="row">
-                    <div class="col-md-5 mb-3">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column" style="padding-left: 16%;">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shipping</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Returns</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
-                            </li>
-                        </ul>
-                    </div>
+        </script>
 
-                    <div class="col-md-5 mb-3 offset-md-1">
-                        <form>
-                            <h5>Subscribe to our newsletter</h5>
-                            <p style="padding-left: 3%;">Monthly digest of what's new and exciting from us.</p>
-                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                <label for="newsletter1" class="visually-hidden">Email address</label>
-                                <input id="email" type="email" class="form-control pink-on-input" placeholder="Email address">
-                                <button class="btn btn-primary" type="button">Subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p>&copy; 2024 Forever Lash Co, All rights reserved.</p>
-                    <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                                    <use xlink:href="#twitter" />
-                                </svg></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                                    <use xlink:href="#instagram" />
-                                </svg></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                                    <use xlink:href="#facebook" />
-                                </svg></a></li>
+
+        <hr class="my-4">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column" style="padding-left: 16%;">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shipping</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Returns</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                        </li>
                     </ul>
                 </div>
-            </footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-                crossorigin="anonymous"></script>
 
+                <div class="col-md-5 mb-3 offset-md-1">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p style="padding-left: 3%;">Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="email" type="email" class="form-control pink-on-input"
+                                placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2024 Forever Lash Co, All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
