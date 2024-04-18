@@ -82,8 +82,8 @@
                     <form class="needs-validation" novalidate>
                         <div class="row g-3">
                             <div class="col-sm-6">
-                                <label for="firstName" class="form-label">First name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <label for="firstName" class="form-label ">First name</label>
+                                <input type="text" class="form-control pink-on-input" id="firstName" placeholder="" value="" required>
                                 <div class="invalid-feedback">
                                     Valid first name is required.
                                 </div>
@@ -91,7 +91,7 @@
 
                             <div class="col-sm-6">
                                 <label for="lastName" class="form-label">Last name</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <input type="text" class="form-control pink-on-input" id="lastName" placeholder="" value="" required>
                                 <div class="invalid-feedback">
                                     Valid last name is required.
                                 </div>
@@ -99,7 +99,7 @@
 
                             <div class="col-12">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                <input type="email" class="form-control pink-on-input" id="email" placeholder="you@example.com">
                                 <div class="invalid-feedback">
                                     Please enter a valid email address for shipping updates.
                                 </div>
@@ -107,7 +107,7 @@
 
                             <div class="col-12">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                <input type="password" class="form-control pink-on-input" id="exampleInputPassword1"
                                     placeholder="*******" required>
                                 <div class="invalid-feedback">
                                     Please include at least one capital letter and a number.
@@ -117,7 +117,7 @@
 
                             <div class="col-md-6">
                                 <label for="country" class="form-label">Country</label>
-                                <select class="form-select" id="country" required>
+                                <select class="form-select pink-on-input" id="country" required>
                                     <option value="">Choose...</option>
                                     <option>United States</option>
                                 </select>
@@ -128,7 +128,7 @@
 
                             <div class="col-md-6">
                                 <label for="state" class="form-label">State</label>
-                                <select class="form-select" id="state" required>
+                                <select class="form-select pink-on-input" id="state" required>
                                     <option value="">Choose...</option>
                                     <option>Arizona</option>
                                 </select>
@@ -144,30 +144,59 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="save-info"
                                 style="margin-right: 2%; margin-bottom: 5px;">
-                            <label class="form-check-label" for="save-info" style="font-size: 18px;">I want to receive promotional
+                            <label class="form-check-label" for="save-info" style="font-size: 18px;">I want to receive
+                                promotional
                                 emails!</label>
                         </div>
                         <div class="col-12">
                             <hr class="my-4">
                             <p style="padding: 3%; text-align: center; font-size: 18px;">How did you hear about us?</p>
                             <div class="form-check" style="padding-bottom: 5%;">
-                                <input type="radio" class="form-check-input" id="radio1" name="radio" value="radio1" style="margin-right: 10px;">
-                                <label class="form-check-label" for="radio1" style="margin-right: 10%;">Online Ad</label><br>
-                                <input type="radio" class="form-check-input" id="radio2" name="radio" value="radio2" style="margin-right: 10px;">
-                                <label class="form-check-label" for="radio2" style="margin-right: 10%;">Social Media</label><br>
-                                <input type="radio" class="form-check-input" id="radio3" name="radio" value="radio3" style="margin-right: 10px;">
-                                <label class="form-check-label" for="radio3" style="margin-right: 10%;">Friend/ Family</label><br>
-                                <input type="radio" class="form-check-input" id="radio4" name="radio" value="radio4" style="margin-right: 10px;">
-                                <label class="form-check-label" for="radio4" style="margin-right: 10%;">Other</label><br>
+                                <input type="radio" class="form-check-input" id="radio1" name="radio" value="radio1"
+                                    style="margin-right: 10px;">
+                                <label class="form-check-label" for="radio1" style="margin-right: 10%;">Online
+                                    Ad</label><br>
+                                <input type="radio" class="form-check-input" id="radio2" name="radio" value="radio2"
+                                    style="margin-right: 10px;">
+                                <label class="form-check-label" for="radio2" style="margin-right: 10%;">Social
+                                    Media</label><br>
+                                <input type="radio" class="form-check-input" id="radio3" name="radio" value="radio3"
+                                    style="margin-right: 10px;">
+                                <label class="form-check-label" for="radio3" style="margin-right: 10%;">Friend/
+                                    Family</label><br>
+                                <input type="radio" class="form-check-input" id="radio4" name="radio" value="radio4"
+                                    style="margin-right: 10px;">
+                                <label class="form-check-label" for="radio4"
+                                    style="margin-right: 10%;">Other</label><br>
                             </div>
                         </div>
                         <hr class="my-4">
 
-                        <button class="w-100 btn btn-primary btn-lg" type="submit" style="margin-top: 3%;">Sign Me Up!</button>
+                        <button class="w-100 btn btn-primary btn-lg" type="submit" style="margin-top: 3%;">Sign Me
+                            Up!</button>
                     </form>
                 </div>
             </div>
         </section>
+        <script>
+             // Get all input elements with the pink-on-input class
+const inputFields = document.querySelectorAll('.pink-on-input');
+
+// Add event listener to each input field
+inputFields.forEach(function(inputField) {
+    inputField.addEventListener('input', function() {
+        // Check if input value is not empty
+        if (this.value.trim() !== '') {
+            // Apply pink color by adding a class
+            this.classList.add('pink');
+        } else {
+            // Remove pink color if input value is empty
+            this.classList.remove('pink');
+        }
+    });
+});
+
+        </script>
     </main>
     <footer>
         <div class="container">
