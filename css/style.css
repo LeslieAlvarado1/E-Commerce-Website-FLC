@@ -6,10 +6,18 @@ main {
   padding-top: 20px;
 }
 
+h5 {
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 .title-info {
   background-color: #000000;
   color: #fdfdfdf3;
 }
+
+/* Index css */
+
 .home-titles {
   font-size: 50px;
   font-weight: bold;
@@ -26,6 +34,21 @@ main {
   letter-spacing: 1px;
   text-align: center;
 }
+.home-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.owl-carousel .item img {
+  width: 100%; /* Adjust this value as needed */
+  height: 300px; /* This ensures the aspect ratio of the image is maintained */
+}
+.toast-container {
+  position: fixed;
+  top: 77%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+}
 .list-group {
   color: #d8d8d8;
   margin-bottom: 10%;
@@ -34,15 +57,42 @@ main {
 .list-group-item p {
   margin-top: 50px;
 }
+.list-group-item:hover {
+  background-color: #a8a8a800 !important;
+  color: #000000 !important;
+}
 .list-group-item {
   border-width: 3px;
   border-style: double;
 }
-h5 {
-  margin-top: 3%;
-  margin-left: 15%;
-  margin-right: 15%;
+#col-home1 {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000 !important;
 }
+#col-home2 {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000 !important;
+}
+#col-home3 {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000 !important;
+}
+#col-home4 {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000 !important;
+}
+
+.about-us {
+  background-color: #000000;
+  color: #fdfdfdf3;
+}
+
+/* Nav bar */
+
 .navbar-toggler-icon {
   background-color: #ffffff;
 }
@@ -53,19 +103,39 @@ h5 {
   background-color: #ffffff;
   color: #000000 !important;
 }
-.list-group-item:hover {
-  background-color: #a8a8a800 !important;
-  color: #000000 !important;
-}
 .dropdown-menu {
   font-size: 18px;
 }
+
+/* Extensions css */
+
 .extensions {
   text-align: center;
 }
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+/* Tweezers css */
+
 .tweezers {
   text-align: center;
 }
+.card-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.card {
+  width: 18rem;
+  padding: 10px;
+  margin: 30px;
+}
+
+/* Adhesives css */
+
 .adhesives {
   text-align: center;
 }
@@ -76,6 +146,9 @@ h5 {
 .cart-container {
   margin: 5%;
 }
+
+/* Register css */
+
 .register-form {
   display: flex;
   flex-direction: column;
@@ -101,25 +174,14 @@ h5 {
   letter-spacing: 1px;
   text-align: center;
 }
-.card-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 3%;
-}
 
-.card-container2 {
+.form-check {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 3%;
+  justify-content: center;
+  align-items: center;
 }
-.card {
-  width: 18rem;
-  padding: 10px;
-  margin: 30px;
-}
-.logIn {
-  text-align: center;
-}
+/* Log In css */
+
 .logIn-container {
   margin-top: 8%;
   margin-bottom: 5%;
@@ -135,11 +197,8 @@ h5 {
   align-items: center;
 }
 
-.form-check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* Buttons / hover */
+
 .btn {
   background-color: rgba(4, 3, 3, 0.88);
   color: #d8d8d8;
@@ -166,23 +225,12 @@ h5 {
     0.701
   ); /* Change this to any color you prefer */
 }
-
-.owl-carousel .item img {
-  width: 100%; /* Adjust this value as needed */
-  height: 300px; /* This ensures the aspect ratio of the image is maintained */
+.text-primary {
+  color: rgba(254, 120, 227, 0.701) !important;
 }
 
-.home-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-}
-.toast-container {
-  position: fixed;
-  top: 77%;
-  left: 83%;
-  transform: translate(-50%, -50%);
-}
+/* Media query */
+
 @media (max-width: 768px) {
   .toast-container {
     top: 70%; /* Adjust the top position for smaller screens */
@@ -195,33 +243,4 @@ h5 {
   .list-group-item p {
     display: none; /* Hide paragraphs within list-group-items */
   }
-}
-.text-primary {
-  color: rgba(254, 120, 227, 0.701) !important;
-}
-
-.about-us {
-  background-color: #000000;
-  color: #fdfdfdf3;
-}
-
-#col-home1 {
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #000000 !important;
-}
-#col-home2 {
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #000000 !important;
-}
-#col-home3 {
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #000000 !important;
-}
-#col-home4 {
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #000000 !important;
 }
