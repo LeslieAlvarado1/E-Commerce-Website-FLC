@@ -39,16 +39,6 @@ h5 {
   margin-right: 10%;
   margin-top: 5%;
 }
-.owl-carousel .item img {
-  width: 100%; /* Adjust this value as needed */
-  height: 300px; /* This ensures the aspect ratio of the image is maintained */
-}
-.toast-container {
-  position: fixed;
-  top: 77%;
-  left: 83%;
-  transform: translate(-50%, -50%);
-}
 .list-group {
   color: #d8d8d8;
   margin-bottom: 10%;
@@ -64,6 +54,16 @@ h5 {
 .list-group-item {
   border-width: 3px;
   border-style: double;
+}
+.owl-carousel .item img {
+  width: 100%; /* Adjust this value as needed */
+  height: 300px; /* This ensures the aspect ratio of the image is maintained */
+}
+.toast-container {
+  position: fixed;
+  top: 77%;
+  left: 83%;
+  transform: translate(-50%, -50%);
 }
 #col-home1 {
   background-color: #ffffff;
