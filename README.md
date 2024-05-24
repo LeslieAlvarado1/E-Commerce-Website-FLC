@@ -1,4 +1,4 @@
-#Capstone-project1-E-Commerce-Website
+# Capstone-project1-E-Commerce-Website
 
 Capstone 1 E-Commerce website. This project is an e-commerce website specifically designed for purchasing eyelash extensions.
 
@@ -32,6 +32,31 @@ Welcome to Forever Lash Co, a website that provides a selection of eyelash exten
 ## Features
 
 - Inlcudes product catalog, shopping cart, registering, user authentication, etc.
+
+## Pages
+
+Home 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+Product Page 1 example
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+Register 
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+Log In 
+![alt text](image-9.png)
+
+Cart 
+![alt text](image-10.png)
+![alt text](image-11.png)
+
 
 ## Usage
 ![Homepage](./images/FLC-original2.png)
